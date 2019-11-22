@@ -1,6 +1,7 @@
 {
-  "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "prettier.printWidth": 120,
+  "css.lint.unknownAtRules": "ignore"
 }
