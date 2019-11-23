@@ -1,12 +1,10 @@
 {
-  "name": "dashboard_app",
+  "name": "meme",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "clean": "prettier --write ./src/**"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.3.2",
@@ -20,9 +18,7 @@
     "@vue/cli-plugin-vuex": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "node-sass": "^4.12.0",
-    "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
-    "tailwindcss": "^1.1.3",
     "vue-template-compiler": "^2.6.10"
   }
 }
